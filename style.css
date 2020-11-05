@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(27, 27, 27);
+    color: rgb(240, 221, 192);
+    font-family: 'Cairo', sans-serif;
+    transition: all 0.5s;
+}
+
+#test {
+    font-size: 40px;
+    text-align: center;
+	color: #000;
+}
+
+*:focus{ outline: none; }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.themeBtns {
+    background-size: auto;
+    font-size: 25px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 14px;
+    background-color: rgb(27, 27, 27);
+    border: solid 0.1px;
+    padding: 5px;
+	color: #fff;
+}
+
+.themeBtns:hover {
+    border-radius: 25px;
+    transition: all 1s;
+    font-size: 30px;
+}
+
+.info {
+    font-size: 15px;
+    text-align: center;
+    width: 40%;
+    background-color: rgb(31, 31, 31);
+    margin-left: 30%;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+a img {
+    padding: 10px;
+}
